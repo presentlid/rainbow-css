@@ -1,0 +1,63 @@
+* {
+    box-sizing: border-box;
+  }
+  body {
+    background: rgb(247,247,247);
+  }
+  .rainbow {
+    border: 0px solid red;
+    height: 200px;
+    overflow: hidden;
+  }
+  .rainbow div {
+    overflow: hidden;
+  }
+  .rainbow>div {
+    width: 400px;
+    height: 400px;
+    background: hsl(0, 90%, 50%);
+    margin: 10px;
+    border-radius: 50%;
+  }
+  .rainbow>div>div {
+    height: 380px;
+    background: hsl(51, 90%, 50%);
+    margin: 10px;
+    border-radius: 50%;
+  }
+  .rainbow>div>div>div {
+    height: 360px;
+    background: hsl(103, 90%, 50%);
+    margin: 10px;
+    border-radius: 50%;
+  }
+  .rainbow>div>div>div>div {
+    height: 340px;
+    background: hsl(154, 90%, 50%);
+    margin: 10px;
+    border-radius: 50%;
+  }
+  .rainbow>div>div>div>div>div {
+    height: 320px;
+    background: hsl(206, 90%, 50%);
+    margin: 10px;
+    border-radius: 50%;
+  }
+  .rainbow>div>div>div>div>div>div {
+    height: 300px;
+    background: hsl(257, 90%, 50%);
+    margin: 10px;
+    border-radius: 50%;
+  }
+  .rainbow>div>div>div>div>div>div>div {
+    height: 280px;
+    background: hsl(309, 90%, 50%);
+    margin: 10px;
+    border-radius: 50%;
+  }
+  .rainbow>div>div>div>div>div>div>div>div {
+    height: 260px;
+    background: rgb(247,247,247);
+    margin: 10px;
+    border-radius: 50%;
+  }
